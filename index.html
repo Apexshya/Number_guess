@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the number</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        .form {
+            margin: 20px;
+        }
+        label {
+            font-weight: bold;
+        }
+        input.guessField {
+            width: 50px;
+            text-align: center;
+        }
+        input.guessSubmit {
+            background-color: #333;
+            color: #fff;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Guess the number</h1>
+    <p>Select a random number from 1 - 10.</p>
+    <div class="form">
+        <label for="guessField">Enter a guess:</label>
+        <input type="text" id="guessField" class="guessField">
+        <input type="submit" value="Submit Guess" class="guessSubmit" id="submitGuess">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
